@@ -12,6 +12,7 @@ function App() {
       <h1 className="bg-green-400 text-black mb-4">Telwind Test</h1>
       {/* <Card channel="Aksay" someObject={object} someArray={newArray}></Card> */}
       <Card username="Akshay Umredkar"></Card>
+      <Card username="Supriya Khandavalii"></Card>
     </>
   );
 }

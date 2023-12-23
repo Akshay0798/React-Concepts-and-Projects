@@ -1,42 +1,71 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #282c34;
+  color: #ffa500;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #2d3748;
+}
+
+.title {
   text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.password-container {
+  display: flex;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.password-input {
+  flex: 1;
+  outline: none;
+  padding: 10px;
+  background-color: #2d3748;
+  color: #ffa500;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.copy-button {
+  background-color: #4299e1;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.copy-button:hover {
+  background-color: #12487b;
 }
 
-.read-the-docs {
-  color: #888;
+.options-container {
+  display: flex;
+  font-size: 14px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.option label {
+  margin-left: 5px;
+  color: #a0aec0;
+}
+
+.option input {
+  margin-right: 5px;
 }
